@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile_Details_Admin"
+            android:icon="@drawable/profile"
+            android:title="My Account" />
+        <item
+            android:id="@+id/my_data_Admin"
+            android:icon="@drawable/my_data"
+            android:title="My Data" />
+        <item
+            android:id="@+id/settings_Admin"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/log_out_Admin"
+            android:icon="@drawable/sign_out"
+            android:title="Log Out" />
+    </group>
+
+</menu>
